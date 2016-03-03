@@ -10,6 +10,22 @@ public class Usuario {
     private String Email;
     private String Password;
 
+    public Usuario() {
+    }
+
+    public Usuario (int id,String n, String e, String p){
+        ID_user=id;
+        Nombre=n;
+
+        Email=e;
+        Password=p;
+    }
+
+    public Usuario (String n, String e, String p){
+        Nombre=n;
+        Email=e;
+        Password=p;
+    }
 
     public int getID_user() {
         return ID_user;

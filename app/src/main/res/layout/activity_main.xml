@@ -45,8 +45,8 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="New Button"
-                    android:id="@+id/button"
+                    android:text="Nueva ruta"
+                    android:id="@+id/nruta"
                     android:onClick="pulse"/>
             </LinearLayout>
 
